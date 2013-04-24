@@ -1,9 +1,10 @@
 home
 ====
 
-A collection of dotfiles and configs for my home directory.
-Based on: http://dudarev.com/blog/keep-vim-settings-and-plugins-in-git-repo/
-and: https://github.com/dudarev/dotvim
+A collection of dotfiles and configs for my home directory.  Based on: 
+
+* http://dudarev.com/blog/keep-vim-settings-and-plugins-in-git-repo
+* https://github.com/dudarev/dotvim
 
 Setting up a new machine
 -----
@@ -17,10 +18,15 @@ Setting up a new machine
 Adding a new module
 -----
 
+```bash
 git submodule add http://module_url/ path/for/module
 git add .
 git commit -m "..."
+```
 
 Updating all module versions
 -----
+
+```bash
 git submodule foreach git pull origin master
+```
