@@ -10,5 +10,6 @@ git submodule update
 
 # Git setup
 echo "Don't forget to setup your Git config"
+echo 'git config --global core.editor vi'
 echo 'git config --global user.name "John Doe"'
 echo 'git config --global user.email johndoe@example.com'
