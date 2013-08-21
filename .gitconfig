@@ -1,0 +1,12 @@
+[user]
+	name = SETME 
+	email = SETME
+[core]
+	editor = /usr/bin/vim
+[color]
+	ui = true
+[alias]
+	logmini = log -n 20 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>% Creset' --abbrev-commit --date=relative
+    logmore = log -n 40 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>% Creset' --abbrev-commit --date=relative
+    loghere = log -n 20 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold cyan)<%an>% Creset' --abbrev-commit --date=relative -- .
+	logdiff = log -u -1
