@@ -12,7 +12,7 @@ set nobomb
 set sw=4
 set expandtab
 set smartindent
-colorscheme darkblue
+colorscheme twilight
 set foldmethod=indent
 set foldlevel=99
 set colorcolumn=80
